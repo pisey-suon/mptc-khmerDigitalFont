@@ -132,8 +132,9 @@ For major changes — such as new glyph coverage or weight additions — please 
 ---
 
 ## Credits
-
-Designed and published by the  
+Editor: Mok Rady, Pot Semtararath, Suon Pisey
+Designed by Danh Hong (NextOCR - https://nextocr.org)
+Published by the  
 **Ministry of Post and Telecommunications of Cambodia (MPTC)**  
 🌐 [https://www.mptc.gov.kh](https://www.mptc.gov.kh)
 
