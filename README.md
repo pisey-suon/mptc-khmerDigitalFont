@@ -67,7 +67,7 @@ body {
 
 ### Download & Install
 
-1. Download the latest release from the [Releases](../../releases) page
+1. Download the latest release from the [Releases](../../../../releases) page
 2. Extract the ZIP file
 3. Install the `.ttf` files on your system:
    - **Windows**: Right-click → Install
