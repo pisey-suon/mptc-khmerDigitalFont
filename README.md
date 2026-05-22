@@ -1,142 +1,94 @@
 # Khmer Digital Font
 
-**ពុម្ពអក្សរខ្មែរឌីជីថល** — An official Khmer typeface published by the Ministry of Post and Telecommunications of Cambodia.
+ពុម្ពអក្សរខ្មែរឌីជីថល — Khmer Digital Typeface
 
 ---
 
 ## Overview
 
-Khmer Digital Font is a comprehensive, professionally designed Khmer Unicode typeface released by the **Ministry of Post and Telecommunications of Cambodia (MPTC)**. Built for use in official government documents, digital communications, and public-facing materials, this font brings a modern and authoritative voice to the Khmer script across all media.
+Khmer Digital is an official Khmer Unicode typeface released by the Ministry of Post and Telecommunications of Cambodia (MPTC), designed as a national standard font for digital government, enterprise systems, and public services.
 
-The font family ships with **9 weights**, from Thin to Black, giving designers and developers full typographic control for both display and body text contexts.
-
----
-
-## Font Weights
-
-| Weight | Name        | CSS Value |
-|--------|-------------|-----------|
-| 100    | Thin        | `font-weight: 100` |
-| 200    | ExtraLight  | `font-weight: 200` |
-| 300    | Light       | `font-weight: 300` |
-| 400    | Regular     | `font-weight: 400` |
-| 500    | Medium      | `font-weight: 500` |
-| 600    | SemiBold    | `font-weight: 600` |
-| 700    | Bold        | `font-weight: 700` |
-| 800    | ExtraBold   | `font-weight: 800` |
-| 900    | Black       | `font-weight: 900` |
+The typeface provides a clean, modern, and highly readable design while preserving the cultural and typographic integrity of the Khmer script. It is intended for use across web, mobile, desktop, and print environments.
 
 ---
 
 ## Features
 
-- ✅ Full Khmer Unicode support
-- ✅ 9 weights for complete typographic range
-- ✅ Optimized for official letters, reports, and government documents
-- ✅ Suitable for screen and print
-- ✅ Web font ready (WOFF2 / TTF)
-- ✅ Free and open source under SIL Open Font License 1.1
+- ✅ Full Khmer Unicode support  
+- ✅ 9 weights (Thin → Black)  
+- ✅ Optimized for government documents and digital services  
+- ✅ Suitable for screen and print  
+- ✅ Web font ready (WOFF2)  
+- ✅ Compatible with Microsoft 365 (Word, Excel, Teams, SharePoint)  
+- ✅ Free and open source under SIL Open Font License 1.1  
 
 ---
 
-## Usage
+## Font Weights
 
-### Web (CSS)
+| Weight | Name       | CSS |
+|--------|------------|------|
+| 100    | Thin       | font-weight: 100 |
+| 200    | ExtraLight | font-weight: 200 |
+| 300    | Light      | font-weight: 300 |
+| 400    | Regular    | font-weight: 400 |
+| 500    | Medium     | font-weight: 500 |
+| 600    | SemiBold   | font-weight: 600 |
+| 700    | Bold       | font-weight: 700 |
+| 800    | ExtraBold  | font-weight: 800 |
+| 900    | Black      | font-weight: 900 |
+
+---
+
+## Repository Structure
+
+    ofl/khmerdigital/   → TTF font files (Google Fonts standard)
+    webfonts/           → WOFF2 font files (web usage)
+    css/                → CSS file for integration
+    docs/               → documentation and guidelines (optional)
+
+---
+
+## Web Usage
+
+### 1. Include CSS
+
+    css/khmerdigital.css
+
+### 2. Apply font
 
 ```css
+body {
+  font-family: 'Khmer Digital', sans-serif;
+}
+## Direct CSS Example
 @font-face {
   font-family: 'Khmer Digital';
-  src: url('fonts/KhmerDigital-Regular.woff2') format('woff2'),
-       url('fonts/KhmerDigital-Regular.ttf') format('truetype');
+  src: url('../webfonts/KhmerDigital-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Khmer Digital';
-  src: url('fonts/KhmerDigital-Bold.woff2') format('woff2'),
-       url('fonts/KhmerDigital-Bold.ttf') format('truetype');
+  src: url('../webfonts/KhmerDigital-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
-body {
-  font-family: 'Khmer Digital', sans-serif;
-}
-```
-
-### Download & Install
-
-1. Download the latest release from the [Releases](https://github.com/danhhong/khmerdigital/tree/main/releases/) page
-2. Extract the ZIP file
-3. Install the `.ttf` files on your system:
-   - **Windows**: Right-click → Install
-   - **macOS**: Double-click → Install Font
-   - **Linux**: Copy to `~/.fonts/` or `/usr/share/fonts/`
-
 ---
+Desktop Installation
 
-## File Structure
+Windows
 
-```
-KhmerDigitalFont/
-├── fonts/
-│   ├── TTF/
-│   │   ├── KhmerDigital-Thin.ttf
-│   │   ├── KhmerDigital-ExtraLight.ttf
-│   │   ├── KhmerDigital-Light.ttf
-│   │   ├── KhmerDigital-Regular.ttf
-│   │   ├── KhmerDigital-Medium.ttf
-│   │   ├── KhmerDigital-SemiBold.ttf
-│   │   ├── KhmerDigital-Bold.ttf
-│   │   ├── KhmerDigital-ExtraBold.ttf
-│   │   └── KhmerDigital-Black.ttf
-│   └── WOFF2/
-│       ├── KhmerDigital-Thin.woff2
-│       ├── KhmerDigital-ExtraLight.woff2
-│       ├── KhmerDigital-Light.woff2
-│       ├── KhmerDigital-Regular.woff2
-│       ├── KhmerDigital-Medium.woff2
-│       ├── KhmerDigital-SemiBold.woff2
-│       ├── KhmerDigital-Bold.woff2
-│       ├── KhmerDigital-ExtraBold.woff2
-│       └── KhmerDigital-Black.woff2
-├── LICENSE.txt
-└── README.md
-```
+Right-click .ttf → Install
 
----
+macOS
 
-## License
+Double-click .ttf → Install Font
 
-This font is licensed under the **SIL Open Font License, Version 1.1**.
+Linux
+cp *.ttf ~/.fonts/
+fc-cache -fv
 
-> Copyright 2025 The Khmer Digital Font  
-> Ministry of Post and Telecommunications of Cambodia
 
-You are free to use, study, modify, and redistribute this font, including in commercial software, as long as:
-- The font is not sold by itself
-- The license is distributed with any copy
-- Modified versions do not use the Reserved Font Name
-
-See [LICENSE.txt](LICENSE.txt) for the full license text, or visit [openfontlicense.org](https://openfontlicense.org).
-
----
-
-## Contributing
-
-Contributions and improvements are welcome. Please open an issue or submit a pull request.
-
-For major changes — such as new glyph coverage or weight additions — please open an issue first to discuss.
-
----
-
-## Credits
-Editor: Mok Rady, Pot Semtararath, Suon Pisey  
-Designed by Danh Hong (NextOCR - https://nextocr.org)  
-Published by **Ministry of Post and Telecommunications of Cambodia (MPTC)**  
-🌐 [https://www.mptc.gov.kh](https://www.mptc.gov.kh)
-
----
-
-*Preserving and advancing the Khmer script in the digital age.*
