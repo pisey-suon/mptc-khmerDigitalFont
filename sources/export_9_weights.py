@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-compile_weights.py
 Compile KhmerDigital.designspace → 9 TTF weights in ttf/
-Run this after to_glyphs.py has already built master_ufo/ and KhmerDigital.designspace
 """
 import os
 import shutil
