@@ -43,38 +43,12 @@ The typeface provides a clean, modern, and highly readable design while preservi
 ## Repository Structure
 
     ofl/khmerdigital/   → TTF font files (Google Fonts standard)
-    webfonts/           → WOFF2 font files (web usage)
-    css/                → CSS file for integration
+    sources/                → Font source
     docs/               → documentation and guidelines (optional)
 
 ---
 
-## Web Usage
-
-### 1. Include CSS
-
-    css/khmerdigital.css
-
-### 2. Apply font
-
-```css
-body {
-  font-family: 'Khmer Digital', sans-serif;
-}
-## Direct CSS Example
-@font-face {
-  font-family: 'Khmer Digital';
-  src: url('../webfonts/KhmerDigital-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Khmer Digital';
-  src: url('../webfonts/KhmerDigital-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-}
+### 1. Apply font
 
 ---
 Desktop Installation
