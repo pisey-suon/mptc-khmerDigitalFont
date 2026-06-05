@@ -42,9 +42,9 @@ The typeface provides a clean, modern, and highly readable design while preservi
 
 ## Repository Structure
 
+    DOCS/               → documentation and guidelines (optional)
     ofl/khmerdigital/   → TTF font files (Google Fonts standard)
     sources/                → Font source
-    docs/               → documentation and guidelines (optional)
 
 ---
 
