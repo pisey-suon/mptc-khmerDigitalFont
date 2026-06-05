@@ -7,20 +7,8 @@ Khmer Digital is an official typeface developed by the Ministry of Post and Tele
 - Windows
 - macOS
 - Linux
-- Web browsers (via WOFF2)
 - Microsoft 365 applications (Word, Excel, Teams)
 
-## Web Usage
-
-Include CSS:
-
-<link rel="stylesheet" href="css/khmerdigital.css">
-
-Example:
-
-body {
-  font-family: 'Khmer Digital', sans-serif;
-}
 
 ## Font Weights
 
