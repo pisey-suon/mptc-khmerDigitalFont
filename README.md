@@ -18,7 +18,7 @@ The typeface provides a clean, modern, and highly readable design while preservi
 - ✅ 9 weights (Thin → Black)  
 - ✅ Optimized for government documents and digital services  
 - ✅ Suitable for screen and print  
-- ✅ Web font ready (WOFF2)  
+- ✅ Web font ready (WOFF2)  #future
 - ✅ Compatible with Microsoft 365 (Word, Excel, Teams, SharePoint)  
 - ✅ Free and open source under SIL Open Font License 1.1  
 
